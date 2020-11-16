@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V0 #PWR0101
+U 1 1 5FB2B64B
+P 5700 2800
+F 0 "#PWR0101" H 5700 2650 50  0001 C CNN
+F 1 "+3V0" H 5715 2973 50  0000 C CNN
+F 2 "" H 5700 2800 50  0001 C CNN
+F 3 "" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L cr2032_PCB:Bat+ J1
+U 1 1 5FB2BD46
+P 5350 2950
+F 0 "J1" H 5300 2650 50  0000 C CNN
+F 1 "Bat+" H 5250 2700 50  0000 C CNN
+F 2 "cr2032:bat+" H 5350 2950 50  0001 C CNN
+F 3 "" H 5350 2950 50  0001 C CNN
+	1    5350 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 2850 5700 2850
+Wire Wire Line
+	5700 2850 5700 2800
+$Comp
+L power:GND #PWR0102
+U 1 1 5FB2C8FC
+P 5700 3000
+F 0 "#PWR0102" H 5700 2750 50  0001 C CNN
+F 1 "GND" H 5705 2827 50  0000 C CNN
+F 2 "" H 5700 3000 50  0001 C CNN
+F 3 "" H 5700 3000 50  0001 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2950 5700 3000
+$Comp
+L cr2032_PCB:Bay- J3
+U 1 1 5FB2EE74
+P 5350 3050
+F 0 "J3" H 5350 3150 50  0000 C CNN
+F 1 "Bat-" H 5300 3050 50  0000 C CNN
+F 2 "cr2032:bat-" H 5350 3050 50  0001 C CNN
+F 3 "" H 5350 3050 50  0001 C CNN
+	1    5350 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 2950 5450 2950
+$EndSCHEMATC

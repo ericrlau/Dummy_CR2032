@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name cr2032_PCB)(type Legacy)(uri ${KIPRJMOD}/cr2032_PCB.lib)(options "")(descr ""))
+)
